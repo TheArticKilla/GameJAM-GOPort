@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	"github.com/TheArticKilla/GameJAM-GOPort/Game"
+	"github.com/TheArticKilla/GameJAM-GOPort/MineGame"
 	"github.com/hajimehoshi/ebiten"
 )
 
 func main() {
-	game, err := game.NewGame()
+	game, err := minegame.NewGame()
 	if err != nil {
 		log.Fatal(err)
 	}
